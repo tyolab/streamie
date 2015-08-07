@@ -81,8 +81,8 @@ require.def("stream/app",
     // they perform actions such as previewing images or expading short URLs
     var linkPlugins = [
       linkPlugin.id,
-      linkPlugin.imagePreview,
-      linkPlugin.untiny
+      linkPlugin.imagePreview
+      //, linkPlugin.untiny
     ];
     
     var stream = new tweetstream.Stream(settings);

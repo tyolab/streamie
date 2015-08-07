@@ -55,25 +55,6 @@
 	<link rel="stylesheet" type="text/css" href="css/streamie.less.css" media="screen,projection,print" />
 	<script src="/js/jquery.min.js"></script>
 	<script>
-	$.getJSON('/user_info', function(obj) {
-	  if(obj.screen_name) {
-	    $(function() {
-	      var token = document.cookie.match(/token=(\w+)/)[1];
-	      $.getScript('//wifiauth.streamie.org/authorize?token='+encodeURIComponent(token))
-	      $('#welcome').text('Hello ' + obj.screen_name + '!');
-	      $('.loginButton').hide();
-	      $('.streamieButton').show();
-	      setTimeout(function() {
-	        location.href = "http://www.jsconf.eu";
-	      }, 5000);
-      });
-	  }
-	});
-	
-	function callback() {
-	  // ignore
-	}
-	
 	</script>
 	<script src="ext/less-1.0.35.min.js"></script>
 	<link href='images/streamie-empty.ico' rel='shortcut icon' />

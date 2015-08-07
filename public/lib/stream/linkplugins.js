@@ -9,11 +9,11 @@ require.def("stream/linkplugins",
     
     var UntinyDomains = ["bit.ly"];
     
-    $.get("/untiny/1.0/services/?format=json&bla=35", function(data, textStatus) {
-      if(textStatus == "success" && data) {
-        UntinyDomains.push.apply(UntinyDomains, Object.keys(data));
-      }
-    }, 'json');
+//    $.get("/untiny/1.0/services/?format=json&bla=35", function(data, textStatus) {
+//      if(textStatus == "success" && data) {
+//        UntinyDomains.push.apply(UntinyDomains, Object.keys(data));
+//      }
+//    }, 'json');
     
     var index = 0;
     
