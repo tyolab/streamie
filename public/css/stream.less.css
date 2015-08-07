@@ -1,0 +1,645 @@
+#client-shadow .small {
+  -webkit-box-shadow: 0 0 16px #999999;
+  -moz-box-shadow: 0 0 16px #999999;
+  -ms-box-shadow: 0 0 16px #999999;
+  -o-box-shadow: 0 0 16px #999999;
+  box-shadow: 0 0 16px #999999;
+}
+#client-shadow .smalldark {
+  -webkit-box-shadow: 0 0 16px #777777;
+  -moz-box-shadow: 0 0 16px #777777;
+  -ms-box-shadow: 0 0 16px #777777;
+  -o-box-shadow: 0 0 16px #777777;
+  box-shadow: 0 0 16px #777777;
+}
+#client-shadow .big {
+  -webkit-box-shadow: 0 0 30px #333333;
+  -moz-box-shadow: 0 0 30px #333333;
+  -ms-box-shadow: 0 0 30px #333333;
+  -o-box-shadow: 0 0 30px #333333;
+  box-shadow: 0 0 30px #333333;
+}
+#client-shadow .inset {
+  -webkit-box-shadow: 0 0 5px #efefef inset;
+  -moz-box-shadow: 0 0 5px #efefef inset;
+  -ms-box-shadow: 0 0 5px #efefef inset;
+  -o-box-shadow: 0 0 5px #efefef inset;
+  box-shadow: 0 0 5px #efefef inset;
+}
+#client-border-radius .none {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+#client-border-radius .small {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+#client-border-radius .middle {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+#client-border-radius .big {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+#client-gradient .body {
+  background: #dadada;
+  background: #ffffff -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.4, #dadada), color-stop(0.6, #dadada));
+  background: #ffffff -moz-linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+  background: #ffffff -o-linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+  background: #ffffff -ms-linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dadada')";
+  background: #ffffff linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+}
+#client-gradient .button .low {
+  background: #efefef;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.5, #efefef));
+  background: -moz-linear-gradient(top, #ffffff, #efefef);
+  background: -o-linear-gradient(top, #ffffff, #efefef);
+  background: -ms-linear-gradient(top, #ffffff, #efefef);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #ffffff, #efefef);
+}
+#client-gradient .button .hi {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#efefef), color-stop(0.5, #ffffff));
+  background: -moz-linear-gradient(top, #efefef, #ffffff);
+  background: -o-linear-gradient(top, #efefef, #ffffff);
+  background: -ms-linear-gradient(top, #efefef, #ffffff);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #efefef, #ffffff);
+}
+#client-gradient .button .second .low {
+  background: #aaaaaa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.5, #aaaaaa));
+  background: -moz-linear-gradient(top, #ffffff, #aaaaaa);
+  background: -o-linear-gradient(top, #ffffff, #aaaaaa);
+  background: -ms-linear-gradient(top, #ffffff, #aaaaaa);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #ffffff, #aaaaaa);
+}
+#client-gradient .button .second .hi {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#aaaaaa), color-stop(0.5, #ffffff));
+  background: -moz-linear-gradient(top, #aaaaaa, #ffffff);
+  background: -o-linear-gradient(top, #aaaaaa, #ffffff);
+  background: -ms-linear-gradient(top, #aaaaaa, #ffffff);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #aaaaaa, #ffffff);
+}
+#client-transition-time .no {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+#client-transition-time .short {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+}
+#client-transition-time .long {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+}
+#client-transition-time .opacity {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+}
+#client-transition-time .actions {
+  -webkit-transition: opacity, color ease-out, ease-out 0.3s;
+  -moz-transition: opacity, color ease-out, ease-out 0.3s;
+  -o-transition: opacity, color ease-out, ease-out 0.3s;
+  -ms-transition: opacity, color ease-out, ease-out 0.3s;
+}
+#client-transition-time .slide {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+#border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#client-font .Arial {
+  font-family: Arial, sans-serif;
+}
+#client-font .Helvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#client-font .HelveticaNeue {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#client-font .Streamium {
+  font-family: "Streamium";
+}
+#content #stream {
+  height: 100%;
+}
+#content #stream li.tweet {
+  position: relative;
+  clear: both;
+  margin: 0 0 20px 0;
+  /*#client-transition-time > .short;*/
+  z-index: 0;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1.5s;
+  /*-webkit-backface-visibility: hidden;*/
+}
+#content #stream li.tweet.flipped {
+  -webkit-transform: rotateY(180deg);
+}
+#content #stream li.tweet.flipped + .back {
+  -webkit-transform: rotateY(0deg);
+}
+#content #stream li.tweet.back {
+  position: absolute;
+  -webkit-transform: rotateY(180deg);
+  z-index: 1;
+}
+#content #stream li.tweet:hover {
+  z-index: 1;
+}
+#content #stream li.tweet.new {
+  -webkit-animation-name: fadein;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+}
+#content #stream li.tweet.collapsed > a {
+  top: 0;
+}
+#content #stream li.tweet.collapsed > a img,
+#content #stream li.tweet.collapsed > a canvas {
+  width: 18px;
+  height: 18px;
+}
+#content #stream li.tweet.collapsed .retweet-user-href-icon {
+  display: none;
+}
+#content #stream li.tweet.collapsed div.status {
+  cursor: pointer;
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+}
+#content #stream li.tweet.collapsed div.status *,
+#content #stream li.tweet.collapsed div.status:after {
+  opacity: 0;
+}
+#content #stream li.tweet.gap {
+  padding-bottom: 10px;
+  border-bottom: 4px dashed #999;
+  border-bottom-style: wave;
+  margin-bottom: 10px;
+}
+#content #stream li.tweet > a {
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+#content #stream li.tweet > a img,
+#content #stream li.tweet > a canvas {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+#content #stream li.tweet.deleted p.text {
+  text-decoration: line-through;
+}
+#content #stream li.tweet div.status {
+  position: relative;
+  padding: 8px 10px;
+  min-height: 38px;
+  margin: 0 0 0 65px;
+  display: block;
+  background: #fff;
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 16px #999999;
+  -moz-box-shadow: 0 0 16px #999999;
+  -ms-box-shadow: 0 0 16px #999999;
+  -o-box-shadow: 0 0 16px #999999;
+  box-shadow: 0 0 16px #999999;
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  /*-webkit-transform: translate3d(0,0,0);*/
+}
+#content #stream li.tweet div.status .header {
+  line-height: 16px;
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  opacity: 0;
+}
+#content #stream li.tweet div.status .conversation {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  opacity: 0;
+}
+#content #stream li.tweet div.status .h {
+  /*float:left;
+					margin:0 0 10px 0;*/
+}
+#content #stream li.tweet div.status .h a {
+  font-weight: bold;
+}
+#content #stream li.tweet div.status .h .source a {
+  font-weight: normal;
+}
+#content #stream li.tweet div.status .time {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+}
+#content #stream li.tweet div.status .text.json {
+  overflow: auto;
+  height: 400px;
+}
+#content #stream li.tweet div.status .text {
+  clear: both;
+  color: #111;
+  margin: 0;
+  padding: 0 60px 0 0;
+  word-wrap: break-word;
+}
+#content #stream li.tweet div.status .text a {
+  color: #990000;
+}
+#content #stream li.tweet div.status .text a:hover {
+  color: #111;
+}
+#content #stream li.tweet div.status .text:after {
+  /*reserve space for .actions*/
+  content: "\00a0";
+  display: inline-block;
+  width: 70px;
+}
+#content #stream li.tweet div.status .text .image-preview {
+  position: relative;
+  width: 10px;
+  overflow: hidden;
+}
+#content #stream li.tweet div.status .text .image-preview img,
+#content #stream li.tweet div.status .text .image-preview canvas {
+  height: 12px;
+}
+#content #stream li.tweet div.status .text .image-preview:hover img,
+#content #stream li.tweet div.status .text .image-preview:hover canvas {
+  z-index: 1;
+  position: absolute;
+  height: 150px;
+}
+#content #stream li.tweet div.status pre.text {
+  overflow: hidden;
+}
+#content #stream li.tweet div.status .actions {
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
+  color: #000;
+  font-family: "Streamium";
+}
+#content #stream li.tweet div.status .actions li {
+  display: inline;
+  font-size: 17px;
+  line-height: 15px;
+  cursor: pointer;
+  opacity: 0;
+  margin: 0 0 0 5px;
+  /*#client-transition-time > .actions;*/
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  /*
+
+						&.like{
+							display:inline-block;
+							width:14px;
+							height:14px;
+							margin:0 2px -1px 0;
+							background:#000 url("/images/ic_share.gif") no-repeat 0 0;
+							&:hover{
+								background-color:@client-red;
+							}
+						}
+*/
+}
+#content #stream li.tweet div.status .actions li:hover {
+  opacity: 1;
+  color: #990000;
+}
+#content #stream li.tweet div.status .actions li.favorite:after {
+  content: "☆";
+}
+#content #stream li.tweet div.status .actions li.retweet:after {
+  content: "♻";
+}
+#content #stream li.tweet div.status .actions li.quote:after {
+  content: "”";
+}
+#content #stream li.tweet div.status .actions li.reply:after {
+  content: "↩";
+}
+#content #stream li.tweet div.status .actions li.translate_toggle:after {
+  content: "✽";
+}
+#content #stream li.tweet div.status .actions li.delete:after {
+  content: "␡";
+}
+#content #stream li.tweet div.status:hover {
+  -webkit-box-shadow: 0 0 16px #777777;
+  -moz-box-shadow: 0 0 16px #777777;
+  -ms-box-shadow: 0 0 16px #777777;
+  -o-box-shadow: 0 0 16px #777777;
+  box-shadow: 0 0 16px #777777;
+}
+#content #stream li.tweet div.status:hover .header {
+  opacity: 1;
+}
+#content #stream li.tweet div.status:hover .conversation {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  opacity: 1;
+}
+#content #stream li.tweet div.status:hover .actions li {
+  opacity: .7;
+}
+#content #stream li.tweet div.status:hover .time {
+  opacity: 1;
+}
+#content #stream li.tweet div.status:after {
+  position: absolute;
+  top: 10px;
+  left: -16px;
+  display: block;
+  width: 0;
+  height: 0;
+  content: "\00a0";
+  border-color: transparent #ffffff transparent transparent;
+  border-style: solid;
+  border-width: 8px 8px;
+}
+#content #stream li.tweet div.status:hover {
+  -webkit-box-shadow: 0 0 16px #777777;
+  -moz-box-shadow: 0 0 16px #777777;
+  -ms-box-shadow: 0 0 16px #777777;
+  -o-box-shadow: 0 0 16px #777777;
+  box-shadow: 0 0 16px #777777;
+}
+#content #stream li.tweet.form .status .actions {
+  bottom: 96px;
+}
+#content #stream li.tweet.mention .status {
+  background-color: #7f9d83;
+}
+#content #stream li.tweet.mention .status .h,
+#content #stream li.tweet.mention .status .time,
+#content #stream li.tweet.mention .status .text a,
+#content #stream li.tweet.mention .status .in_reply_to_screen_name {
+  color: #fff;
+}
+#content #stream li.tweet.mention .status:after {
+  border-right-color: #7f9d83;
+}
+#content #stream li.tweet.retweet .status {
+  background-color: #e5e5e5;
+}
+#content #stream li.tweet.retweet .status:after {
+  border-right-color: #e5e5e5;
+}
+#content #stream li.tweet.retweet .retweet-user-href-icon {
+  -webkit-box-shadow: 0 0 16px #999999;
+  -moz-box-shadow: 0 0 16px #999999;
+  -ms-box-shadow: 0 0 16px #999999;
+  -o-box-shadow: 0 0 16px #999999;
+  box-shadow: 0 0 16px #999999;
+  margin: 32px 0 0 32px;
+}
+#content #stream li.tweet.retweet .retweet-user-href-icon img,
+#content #stream li.tweet.retweet .retweet-user-href-icon canvas {
+  display: block;
+}
+#content #stream li.tweet.direct .status {
+  background-color: #84b0c1;
+}
+#content #stream li.tweet.direct .status .h,
+#content #stream li.tweet.direct .status .time,
+#content #stream li.tweet.direct .status .text a,
+#content #stream li.tweet.direct .status .in_reply_to_screen_name {
+  color: #fff;
+}
+#content #stream li.tweet.direct .status:after {
+  border-right-color: #84b0c1;
+}
+#content #stream li.tweet.hash-jsconf .status,
+#content #stream li.tweet.hash-jsconfeu .status {
+  -webkit-animation: fadein 1s 5 alternate linear;
+  background-color: #e2007a;
+}
+#content #stream li.tweet.hash-jsconf .status .h,
+#content #stream li.tweet.hash-jsconfeu .status .h,
+#content #stream li.tweet.hash-jsconf .status .time,
+#content #stream li.tweet.hash-jsconfeu .status .time,
+#content #stream li.tweet.hash-jsconf .status .text a,
+#content #stream li.tweet.hash-jsconfeu .status .text a,
+#content #stream li.tweet.hash-jsconf .status .in_reply_to_screen_name,
+#content #stream li.tweet.hash-jsconfeu .status .in_reply_to_screen_name {
+  color: #fff;
+}
+#content #stream li.tweet.hash-jsconf .status:after,
+#content #stream li.tweet.hash-jsconfeu .status:after {
+  border-right-color: #e2007a;
+}
+#content #stream li.tweet.starred .status .actions li.favorite {
+  opacity: 1;
+}
+#content #stream li.tweet.starred .status .actions li.favorite:after {
+  content: "★";
+}
+#content #stream li.tweet.hash-poopin .status {
+  background-color: #965F00;
+}
+#content #stream li.tweet.yourself > a {
+  left: auto;
+  right: 0;
+}
+#content #stream li.tweet.yourself > a img,
+#content #stream li.tweet.yourself > a canvas {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+#content #stream li.tweet.yourself div.status {
+  margin: 0 65px 0 0;
+}
+#content #stream li.tweet.yourself div.status:after {
+  left: auto;
+  right: -16px;
+  border-color: transparent transparent transparent #fff;
+}
+#content #stream li.tweet.yourself.mention .status:after {
+  border-color: transparent transparent transparent #7f9d83;
+}
+#content #stream li.tweet.yourself.retweet .status:after {
+  border-color: transparent transparent transparent #e5e5e5;
+}
+#content #stream li.tweet.yourself.retweet .retweet-user-href-icon {
+  margin: 32px 32px 0 0;
+}
+#content #stream li.tweet.yourself.direct .status:after {
+  border-color: transparent transparent transparent #84b0c1;
+}
+#content #stream li.tweet .service {
+  opacity: 0;
+  position: absolute;
+  left: 100%;
+  top: 25px;
+  background: #fff;
+  padding: 5px 5px 1px;
+  margin: 0 0 0 40px;
+  height: 24px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 16px #999999;
+  -moz-box-shadow: 0 0 16px #999999;
+  -ms-box-shadow: 0 0 16px #999999;
+  -o-box-shadow: 0 0 16px #999999;
+  box-shadow: 0 0 16px #999999;
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+}
+#content #stream li.tweet .service:after {
+  position: absolute;
+  top: 3px;
+  left: -23px;
+  display: block;
+  width: 0;
+  height: 0;
+  content: "\00a0";
+  border-color: transparent #ffffff transparent transparent;
+  border-style: solid;
+  border-width: 12px 12px;
+}
+#content #stream li.tweet .service.show {
+  opacity: 1;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li {
+  background: transparent url("/images/ic_actions.png") no-repeat 0 0;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  bottom: 0;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.retweet {
+  bottom: -1px;
+  background-position: center 2px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.retweet:hover {
+  background-position: center -149px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.reply {
+  bottom: -1px;
+  background-position: center -28px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.reply:hover {
+  background-position: center -179px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.quote {
+  background-position: center -59px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.quote:hover {
+  background-position: center -210px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.delete {
+  background-position: center -328px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.delete:after {
+  background-position: center -298px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.favorite {
+  background-position: center -87px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li.favorite:hover {
+  background-position: center -238px;
+}
+html.no-utf8 #content #stream li.tweet div.status .actions li:after {
+  display: none;
+}
+html.no-utf8 #content #stream li.tweet.starred .status .actions li.favorite {
+  background-position: center -118px;
+}
+html.no-utf8 #content #stream li.tweet.starred .status .actions li.favorite:hover {
+  background-position: center -269px;
+}
+html.no-utf8 #content #stream li.tweet.starred .status .actions li.favorite:after {
+  display: none;
+}

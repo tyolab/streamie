@@ -1,10 +1,10 @@
 {
   "hostNameAndOptionalPort": "streamie.com:8888",
-  "oauthKey": "asdgsdfgsdfgsdfg",
-  "oauthSecret": "sdfgsdfgsdfgsdfgsd",
+  "oauthKey": "",
+  "oauthSecret": "",
   "port": 8888,
-  "imgurKey": "sdfgsdfgsdfgsdfgsdfg",
+  "imgurKey": "",
   "staticFilesExpireSeconds": 0,
-  "siteStreamOAuthToken": "asdasdfasd",
+  "siteStreamOAuthToken": "",
 	"useSSL": false
 }

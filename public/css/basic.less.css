@@ -1,0 +1,452 @@
+/***basics***/
+#client-shadow .small {
+  -webkit-box-shadow: 0 0 16px #999999;
+  -moz-box-shadow: 0 0 16px #999999;
+  -ms-box-shadow: 0 0 16px #999999;
+  -o-box-shadow: 0 0 16px #999999;
+  box-shadow: 0 0 16px #999999;
+}
+#client-shadow .smalldark {
+  -webkit-box-shadow: 0 0 16px #777777;
+  -moz-box-shadow: 0 0 16px #777777;
+  -ms-box-shadow: 0 0 16px #777777;
+  -o-box-shadow: 0 0 16px #777777;
+  box-shadow: 0 0 16px #777777;
+}
+#client-shadow .big {
+  -webkit-box-shadow: 0 0 30px #333333;
+  -moz-box-shadow: 0 0 30px #333333;
+  -ms-box-shadow: 0 0 30px #333333;
+  -o-box-shadow: 0 0 30px #333333;
+  box-shadow: 0 0 30px #333333;
+}
+#client-shadow .inset {
+  -webkit-box-shadow: 0 0 5px #efefef inset;
+  -moz-box-shadow: 0 0 5px #efefef inset;
+  -ms-box-shadow: 0 0 5px #efefef inset;
+  -o-box-shadow: 0 0 5px #efefef inset;
+  box-shadow: 0 0 5px #efefef inset;
+}
+#client-border-radius .none {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+#client-border-radius .small {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+}
+#client-border-radius .middle {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+#client-border-radius .big {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+#client-gradient .body {
+  background: #dadada;
+  background: #ffffff -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.4, #dadada), color-stop(0.6, #dadada));
+  background: #ffffff -moz-linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+  background: #ffffff -o-linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+  background: #ffffff -ms-linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dadada')";
+  background: #ffffff linear-gradient(top, #ffffff 30%, #dadada 50%, #ffffff 30%);
+}
+#client-gradient .button .low {
+  background: #efefef;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.5, #efefef));
+  background: -moz-linear-gradient(top, #ffffff, #efefef);
+  background: -o-linear-gradient(top, #ffffff, #efefef);
+  background: -ms-linear-gradient(top, #ffffff, #efefef);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #ffffff, #efefef);
+}
+#client-gradient .button .hi {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#efefef), color-stop(0.5, #ffffff));
+  background: -moz-linear-gradient(top, #efefef, #ffffff);
+  background: -o-linear-gradient(top, #efefef, #ffffff);
+  background: -ms-linear-gradient(top, #efefef, #ffffff);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #efefef, #ffffff);
+}
+#client-gradient .button .second .low {
+  background: #aaaaaa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.5, #aaaaaa));
+  background: -moz-linear-gradient(top, #ffffff, #aaaaaa);
+  background: -o-linear-gradient(top, #ffffff, #aaaaaa);
+  background: -ms-linear-gradient(top, #ffffff, #aaaaaa);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #ffffff, #aaaaaa);
+}
+#client-gradient .button .second .hi {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#aaaaaa), color-stop(0.5, #ffffff));
+  background: -moz-linear-gradient(top, #aaaaaa, #ffffff);
+  background: -o-linear-gradient(top, #aaaaaa, #ffffff);
+  background: -ms-linear-gradient(top, #aaaaaa, #ffffff);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef')";
+  background: linear-gradient(top, #aaaaaa, #ffffff);
+}
+#client-transition-time .no {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+#client-transition-time .short {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+}
+#client-transition-time .long {
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+}
+#client-transition-time .opacity {
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+}
+#client-transition-time .actions {
+  -webkit-transition: opacity, color ease-out, ease-out 0.3s;
+  -moz-transition: opacity, color ease-out, ease-out 0.3s;
+  -o-transition: opacity, color ease-out, ease-out 0.3s;
+  -ms-transition: opacity, color ease-out, ease-out 0.3s;
+}
+#client-transition-time .slide {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+#border-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#client-font .Arial {
+  font-family: Arial, sans-serif;
+}
+#client-font .Helvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#client-font .HelveticaNeue {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#client-font .Streamium {
+  font-family: "Streamium";
+}
+* html * {
+  display: none;
+}
+* + html * {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-size: 12px;
+  line-height: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #888;
+  text-rendering: optimizeLegibility;
+  background: #fefefe fixed;
+}
+body.loading {
+  background: #fefefe url("/images/lg_streamie.png") no-repeat center 250px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+  transition: color, border, opacity ease-out, ease-out, ease-out 0.1s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 100%;
+  line-height: 100%;
+}
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 18px;
+}
+form,
+fieldset,
+legend {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+textarea {
+  resize: none;
+}
+dl,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  border: none;
+}
+b,
+strong {
+  font-weight: bold;
+}
+.h1,
+.h2 {
+  clear: both;
+  color: #333;
+  margin: 0 0 40px 0;
+  font-size: 23px;
+}
+.h3 {
+  color: #333;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+.h4,
+.h5.h6 {
+  color: #333;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+#container {
+  margin: 0 auto;
+  max-width: 640px;
+}
+.loading #container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+/*header*/
+#header {
+  display: none;
+  /* only shown for authenticated users */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  -webkit-box-shadow: 0 0 16px #999999;
+  -moz-box-shadow: 0 0 16px #999999;
+  -ms-box-shadow: 0 0 16px #999999;
+  -o-box-shadow: 0 0 16px #999999;
+  box-shadow: 0 0 16px #999999;
+  /*-webkit-transform: translate3d(0,0,0);*/
+}
+#header #meta {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+#header #logo {
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+  text-align: center;
+  background: #333;
+  text-shadow: 0 0 2px #fff;
+}
+#header #logo:after,
+#header #logo:before {
+  content: " // ";
+}
+#header #mainnav {
+  overflow: hidden;
+  text-align: center;
+  border-bottom: 1px solid #555;
+  background: #f7f7f7;
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+#header #mainnav li {
+  position: relative;
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 30px;
+  line-height: 20px;
+  padding: 10px 0 5px;
+  width: 50px;
+  text-align: center;
+  border-bottom: 0 solid #000;
+  font-family: "Streamium";
+  -webkit-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -moz-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -o-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+  -ms-transition: color, border, opacity ease-out, ease-out, ease-out 0.3s;
+}
+#header #mainnav li.active,
+#header #mainnav li:hover {
+  border-bottom-width: 5px;
+}
+#header #mainnav li.active a,
+#header #mainnav li:hover a {
+  color: #000;
+}
+#header #mainnav li.new:after {
+  display: block;
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  content: "\00a0";
+  background: #990000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+#header #mainnav li a {
+  position: relative;
+  color: #555;
+  display: block;
+}
+html.no-utf8 #header #mainnav li {
+  line-height: auto;
+  padding: 0;
+}
+html.no-utf8 #header #mainnav li a {
+  background: transparent url("/images/ic_mainnav.png") no-repeat 0 0;
+  text-indent: -3000px;
+  display: block;
+  height: 39px;
+  top: 0 !important;
+  font-size: 10px !important;
+}
+html.no-utf8 #header #mainnav li.rpl a {
+  background-position: center 9px;
+}
+html.no-utf8 #header #mainnav li.timeline a {
+  background-position: center -92px;
+}
+html.no-utf8 #header #mainnav li.rt a {
+  background-position: center -190px;
+}
+html.no-utf8 #header #mainnav li.fv a {
+  background-position: center -292px;
+}
+html.no-utf8 #header #mainnav li.dm a {
+  background-position: center -392px;
+}
+html.no-utf8 #header #mainnav li.settings a {
+  background-position: center -492px;
+}
+html.no-utf8 #header #mainnav li.add a {
+  background-position: center -592px;
+}
+#content {
+  margin: 60px 5px 20px;
+  padding: 10px 10px 0;
+  background: #f3f3f3;
+  background: #fefefe;
+  border: 1px solid #efefef;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+#content h2 {
+  display: none;
+}
+#content .logo {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#content .logo img {
+  padding: 0 0 10px 0;
+  border-bottom: 5px solid #000;
+}
+#content #about {
+  font-size: 13px;
+}
+#content #about h2 {
+  display: block;
+  font-size: 18px;
+}
+#content #about p {
+  margin-bottom: 18px;
+  color: #000;
+}
+#content #about p.point {
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+#content #about p.subline {
+  font-size: 11px;
+}
+#content #about h2,
+#content #about h3,
+#content #about h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+#content #about ul {
+  margin-bottom: 20px;
+}
+#content #about ul li:before {
+  content: "- ";
+}
+#content #about a {
+  color: #990000;
+}
+#content #about a:hover {
+  color: #111;
+}
+#content #about #moreinfo {
+  display: none;
+}
