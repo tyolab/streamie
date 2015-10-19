@@ -49,7 +49,8 @@ require.def("stream/client",
 //        secure: secure,
 //        transports: pickTransport()
 //      });
-      var socket = io.connect("http://localhost:8888");
+      var serverUrl = location.protocol + "//" + location.hostname + ":" + location.port;
+      var socket = io.connect(serverUrl);
       var token = cookie.get("token") || "EMPTY"; // init auth token from cookie. Backend like to receive a value so we use "EMPTY"
       // immediately after connect, send the auth token
       socket.send(JSON.stringify({
