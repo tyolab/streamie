@@ -1,6 +1,6 @@
 <% var h = helpers.html; %>
 <% var data = tweet.data || {};  %>
-<form action="/1/statuses/update.json" method="post" class="status" class="tweet">
+<form action="/1.1/statuses/update.json" method="post" class="status" class="tweet">
   <input type="hidden" name="in_reply_to_status_id" value="<%= data.id || '' %>">
   <input type="hidden" name="lat" value="" />
   <input type="hidden" name="long" value="" />
