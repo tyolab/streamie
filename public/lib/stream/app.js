@@ -1,7 +1,7 @@
 /*
  * Main entry point for our app
  * "start" method gets called by require.js when the initial dependencies are loaded.
- * We always have require.js, jQuery and underscore.js everwhere
+ * We always have require.js, jQuery and underscore.js everywhere
  */
 
 // we really do not want to break if somebody leaves a console.log in the code
@@ -144,6 +144,7 @@ require.def("stream/app",
               }
             }
           };
+
           var socket = client.connect(connect);
         })
       }
