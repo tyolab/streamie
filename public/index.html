@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<!-- 
+--TYO.COM.AU --
+  tyo-stream is forked from streamie and then renamed to tyo-stream
+  
+-->
 <!-- Streamie.org 
      Thank you for viewing source!
      
@@ -47,26 +52,27 @@
 -->
 
 <head>
-	<title>Streamie</title>
+	<title>tyo-stream</title>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="chrome=1" />
 	<base target="_blank" />
 	<meta name="language" content="en-US" />
-	<link rel="stylesheet" type="text/css" href="css/streamie.less.css" media="screen,projection,print" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/streamie.less.css" media="screen,projection,print" />
+
 	<!-- 
+	<script src="/ext/less.min.js"></script>
 	We use less.js: http://github.com/cloudhead/less.js/tree/ 
 	<link rel="stylesheet/less" type="text/css" href="css/streamie.less" media="screen,projection,print" />
 	<script>
 	  less.refresh(true); // localstorage caching is bad for frequent releases
 	</script>
-	-->
+	 -->
 	<script type="text/javascript" src="//www.google.com/jsapi">
 	</script>
 	<script type="text/javascript">
 	  google.load("language", "1");
 	</script>
-	<link href='images/streamie-empty.ico' rel='shortcut icon' />
+	<link href='/images/streamie-empty.ico' rel='shortcut icon' />
 </head>
 
 <body id="www-streamie-org" class="loading">
@@ -169,14 +175,16 @@
 			<input type="button" value="Cancel" class="button close i18n" />
 		</div>
 	</div>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script src="ext/underscore.js"></script>
-	<script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+	<script src="/ext/jquery.min.js"></script>
+	<script src="/ext/underscore.js"></script>
+	<script src="/ext/socket.io/socket.io-1.3.5.js"></script>
 	<!-- 
 	<script src="ext/socket.io/socket.io.js"></script>
 	 -->
 	<!-- We use require.js for loading dependencies http://requirejs.org/ -->
-  <script src="ext/require.js"></script>
+	<!-- 
+  <script src="/ext/require.js"></script>
+   -->
   <script>
     require({
       baseUrl: "./",

@@ -1,6 +1,6 @@
 {
-   "name": "streamie",
-   "description": "An extremely hackable full realtime twitter client",
+   "name": "tyostream",
+   "description": "A Node/JS Twitter Client",
    "tags": [
        "twitter",
        "node",
@@ -8,12 +8,12 @@
        "client"
    ],
    "version": "0.1.0",
-   "author": "Malte Ubl <malte.ubl@gmail.com>",
+   "author": "Eric Tang <eric.tang@tyo.com.au>",
    "repository": {
        "type": "git",
-       "url": "http://github.com/cramforce/streamie.git"
+       "url": "http://github.com/tyolab/tyostream.git"
    },
-   "bugs": "http://github.com/cramforce/streamie/issues",
+   "bugs": "http://github.com/tyolab/tyostream/issues",
    "engines": [
        "node >= 0.3.0"
    ],
